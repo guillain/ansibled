@@ -9,7 +9,7 @@ vpc_dns_zone: ansibled
 vpc_use_nat: false
 
 # credentials for AWS (no, they aren't real...)
-aws_region: ap-southeast-2
+aws_region: "{{ aws_region }}"
 aws_account_id: "{{ aws_account_id }}"
 aws_access_key: "{{ aws_access_key }}"
 aws_secret_key: "{{ aws_secret_key }}"
